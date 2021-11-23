@@ -21,7 +21,7 @@ html{
 :root{
     --main-tx-clr:#F90716;
     --primary-tx-clr:#F8fafa;
-    --overlay-clr:#2828287c;
+    --overlay-clr:#2828288f;
     --img-caption-overlay-clr:linear-gradient(205deg , #2c272ed0 , #282828d0 ,#950101);
     --primary-clr:#282828;
 }
@@ -708,6 +708,22 @@ html{
     border: 2px solid var(--primary-tx-clr);
     color: var(--main-tx-clr);
 }
+@media (max-width:767px) {
+    .traingThree .container .Back_muscle_box h1{
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .traingThree .container .Back_muscle_box p{
+        font-size: 1.0em;
+        font-weight: 400;
+    }
+    .traingThree .container .Back_muscle_box a{
+        font-size: 1.0em;
+        margin: auto;
+    }
+    
+}
 .Our_Coaches{
     min-height: 40vh;
 
@@ -719,6 +735,7 @@ html{
 }
 .Our_Coaches .Coaches_list .coache_box{
     position: relative;
+    overflow: hidden;
 }
 .Our_Coaches .Coaches_list .coache_box img{
     max-width: 100%;
