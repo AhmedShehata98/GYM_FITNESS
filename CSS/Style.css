@@ -359,6 +359,7 @@ html{
 }
 .Landing .container  .Content_Container .main_register_box input[type="submit"]{
     cursor: pointer;
+    margin: auto;
 }
 
 .Welcome_encourage {
