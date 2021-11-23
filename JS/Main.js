@@ -6,7 +6,7 @@ let arrIMG       = [ '00.jpg', '01.jpg' , '02.jpg' , '03.jpg' , '04.jpg' ,'05.jp
 function BACKGROUBD_CHANGER(ele,imgs){
     setInterval(() => {
         var randNumber = Math.floor( Math.random() * imgs.length );
-        ele.style.backgroundImage=`url(../img/Slide_Show/0${randNumber}.jpg`
+        ele.style.backgroundImage=`url(img/Slide_Show/0${randNumber}.jpg`
     }, 3000);
 }
 //Trigger function to random change
