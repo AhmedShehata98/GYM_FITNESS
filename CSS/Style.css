@@ -3,6 +3,12 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: pageLoading  ease-in-out;
+    animation-duration: 0.5s;
+}
+html{
+    
+    scroll-behavior: smooth;
 }
 .container{
     width: calc(100% - 30px);
@@ -340,7 +346,6 @@ body{
     background-color: var(--overlay-clr);
     font-size: 1.1em;
     color: var(--primary-tx-clr);
-    border-radius: 5px;
     width: 40%;
 }
 @media (max-width:768px) {

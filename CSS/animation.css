@@ -1,0 +1,8 @@
+@keyframes pageLoading {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
